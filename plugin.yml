@@ -1,0 +1,29 @@
+name: DadaOrders
+version: 1.0.0
+main: it.dadasmp.orders.DadaOrders
+api-version: "1.20"
+author: DadaSMP
+commands:
+  ordine:
+    description: Crea o gestisce un ordine/richiesta.
+    usage: /ordine <testo>
+    aliases: [ordini, orders, order]
+permissions:
+  dadaorders.use:
+    default: true
+  dadaorders.admin:
+    default: op
+  dadaorders.reload:
+    default: op
+  dadaorders.limit.1:
+    default: true
+  dadaorders.limit.3:
+    default: false
+  dadaorders.limit.5:
+    default: false
+  dadaorders.limit.8:
+    default: false
+  dadaorders.limit.12:
+    default: false
+  dadaorders.limit.20:
+    default: false
